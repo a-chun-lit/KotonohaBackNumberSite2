@@ -39,7 +39,7 @@ h4{
     height: 350px;
     margin-top: 25px;
     text-align: right;
-    margin-right: 150px;
+    margin-left: 120px;
 }
 
 .title-left img{
@@ -52,12 +52,13 @@ h4{
 
 .title-left{
     display: block;
-    flex-basis: 1000px;
+    flex-basis: 630px;
 }
 
 .title{
     display: flex;
     margin-bottom: 50px;
+    width: 100vw;
 }
 
 /*ここまでtitle#C8D6C0*/
@@ -125,4 +126,60 @@ footer {
     text-align: center;
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+
+.brbr{
+    display: none;
+}
+
+/*ここからスマホ版*/
+@media all and (max-width:480px) {
+	.title{
+		width: 30%;
+        margin-left: 0px;
+        display: block;
+        margin-bottom: 70px;
+	}
+
+    h1{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    h4{
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        width: 400px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+
+    .title-right img{
+        width: 250px;
+        height: 250px;
+        margin-left: 70px;
+        opacity: 0.5;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .title-left img{
+        width: 60px;
+        height: 120px;
+        margin-top: -200px;
+        margin-left: 290px;
+        margin-bottom: 100px;
+    }
+
+    .backnumber{
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .brbr{
+        display: block;
+    }   
 }
