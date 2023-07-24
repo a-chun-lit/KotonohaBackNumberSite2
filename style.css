@@ -149,12 +149,13 @@ footer {
 
     h4{
         font-size: 14px;
-        letter-spacing: 2px;
+        letter-spacing: 1.2px;
         line-height: 25px;
         width: 400px;
         margin-bottom: 10px;
         margin-top: 10px;
-        margin-left: 18px;
+        margin-left: 0px;
+        text-align: center;
     }
 
     .title-right img{
@@ -176,10 +177,47 @@ footer {
 
     .backnumber{
         text-align: center;
-        margin-left: 30px;
+        margin-left: 0px;
+        display: block;
+    }
+
+    .contents{
+        width: 400px;
+    }
+
+    .ura{
+        width: 140px;
+        height: 205px;
+        margin-bottom: 45px;
+        margin-right: 23px;
+        margin-left: 45px;
     }
 
     .brbr{
         display: block;
-    }   
+    }  
+    
+    .content-left a{
+        margin-left: 20px;
+        font-size: 24px;
+        background-color: #d4bbb4;
+        color: white;
+        border-radius: 7px;
+        width: 130px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        text-align: center;
+    }
+    
+    .reverse{
+        flex-direction: row-reverse;
+    }
+
+    .reverse img{
+        margin-right: 35px;
+    }
+
+    footer{
+        font-size: 13px;
+    }
 }
